@@ -1,0 +1,149 @@
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+header {
+	height: 84px;
+	border-bottom: 2px solid #c81523 ;
+}
+.logo {
+	margin-top: 18px;
+}
+.registerArea {
+	height: 522px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+.registerArea .header {
+	width: 1200px;
+	line-height: 42px;
+	height: 42px;
+	background-color: #ececec;
+	border-bottom: 1px solid #ccc;
+}
+.registerArea .first {
+	float: left;
+	width: 80px;
+	line-height: 42px;
+	height: 42px;
+}
+.registerArea .second {
+	float: right;
+	width: 110px;
+	line-height: 42px;
+	height: 42px;
+}
+
+.reg-form {
+	width: 600px;
+	margin: 50px auto;
+}
+.reg-form ul li {
+	margin-bottom: 20px;
+}
+.reg-form ul li label {
+	display: inline-block;
+	width: 88px;
+	text-align: right;
+}
+.reg-form ul li .inp {
+	width: 242px;
+	height: 37px;
+	border: 1px solid #ccc;
+}
+.error {
+	color: red;
+}
+.safe {
+	padding-left: 167px;
+}
+.safe em {
+	padding: 0 12px;
+	background-color: pink;
+}
+.agree {
+	padding-left: 80px;
+}
+.agree .check {
+	vertical-align: middle;
+	margin: 0 10px;
+}
+.submit {
+	width: 200px;
+	height: 34px;
+	background-color: #c81623;
+	font-size: 14px;
+	color: #f5f5f5;
+	margin: 30px 0 0 100px
+}
+
+/* 底部模块 */
+/* 底部模块 */
+.footer {
+	height: 415px;
+	background-color: #f5f5f5;
+	padding-top: 30px;
+}
+.service {
+	height: 80px;
+	border-bottom: 1px solid #ccc;
+}
+.service ul li {
+	float: left;
+	width: 300px;
+	height: 50px;
+	padding-left: 35px;
+}
+.service ul li h5 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 6px;
+	background: url('../images/icons.png') no-repeat -252px -2px;
+}
+.service-text {
+	padding-top: 4px;
+}
+.service-text h4 {
+	font-size: 14px;
+}
+.service-text p {
+	font-size: 12px;
+}
+
+.service-help {
+	height: 185px;
+	border-bottom: 1px solid #ccc;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+.service-help dl {
+	float: left;
+	width: 200px;
+}
+.service-help dl:last-child {
+	width: 90px;
+	text-align: center;
+}
+.service-help dl dt {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.service-copyright {
+	position: relative;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.service-copyright .links {
+	position: absolute;
+	margin-bottom: 15px;
+	right: 200px;
+	height: 20px;
+}
+
+.service-copyright .links ul li {
+	float: left;
+	padding: 0 5px;
+}

@@ -1,0 +1,61 @@
+.nav {
+	overflow: hidden;
+}
+.shop {
+	position: absolute;
+	left: 190px;
+	top: 40px;
+	padding: 1px 0 0 14px;
+	border-left: 1px solid #c81523;
+}
+.shop-list {
+	float: left;
+}
+.shop-list ul li {
+	float: left;
+}
+.shop-list ul li a {
+	display: block;
+	line-height: 47px;
+	padding: 0 30px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.shop-content {
+	float: left;
+}
+.shop-content ul li {
+	float: left;
+}
+.shop-content ul li a {
+	display: block;
+	line-height: 47px;
+	padding: 0 20px;
+	font-size: 14px;
+}
+.shop-content ul li:last-child a::after {
+	content: '\ea52';
+	font-family: 'icomoon';
+}
+.list-container .list-container-bd {
+	
+}
+.list-container .list-container-bd ul li {
+	float: left;
+	margin-right: 13px;
+	overflow: hidden;
+	width: 290.25px;
+	height: 460px;
+	border: 1px solid transparent;
+}
+.list-container .list-container-bd ul li:nth-child(4n) {
+	margin-right: 0px;
+}
+.list-container .list-container-bd ul li img {
+	width: 290.25px;
+	height: 460px;
+}
+.list-container .list-container-bd ul li:hover {
+	border: 1px solid #c81523;
+}
+
